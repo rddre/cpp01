@@ -3,7 +3,5 @@
 
 #include <string>
 #include <iostream>
-#include <string>
-#include "Zombie.hpp"
 
 #endif
