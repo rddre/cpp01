@@ -1,6 +1,9 @@
-NAME = zombies
+NAME = violence
 
-SRCS = main.cpp Zombie.cpp zombieHorde.cpp
+SRCS = main.cpp \
+	weapon/Weapon.cpp \
+	human_a/HumanA.cpp \
+	human_b/HumanB.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 CC = c++
